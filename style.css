@@ -8,6 +8,16 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: 'Armata', serif;
+    color: #666666
+    font-size: 36pt;
+    text-align: center;
+    
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
 div.topgradient 
 {     
     background-image:linear-gradient(#ffcc33, #fff);
@@ -85,6 +95,24 @@ th {
 
 .leftalign {
     text-align: left;
+}
+
+img.kn-image {
+    max-width: 80%;
+}
+
+div.kn-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+div.kn-bio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+    
+    margin-bottom: 30px;
 }
 
 div.speaker > div.picture {
