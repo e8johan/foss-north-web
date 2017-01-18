@@ -115,6 +115,10 @@ div.kn-bio {
     margin-bottom: 30px;
 }
 
+img.sp-image {
+    max-width: 100%;
+}
+
 div.speaker > div.picture {
     float: left;
     margin-top: 10px;
