@@ -18,6 +18,38 @@ h2 {
     margin-bottom: 30px;
 }
 
+th.talkheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+}
+
+td.talkmajor {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+    text-align: center;
+}
+
+div.talktitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    font-weight: 800;
+    color: black;
+}
+
+div.talkspeaker {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    color: black;
+}
+
+td.scheduletime {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    text-align: center;
+}
+
 div.topgradient 
 {     
     background-image:linear-gradient(#ffcc33, #fff);
@@ -31,6 +63,13 @@ div.topgradient
 
 div.topgradient > img {
     max-width:90%;
+}
+
+.offsetanchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
 }
 
 .navbar {
@@ -87,6 +126,15 @@ div.bodybreak {
 .sponsor {
     padding: 20px;
     max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.speakergrid {
+    padding: 20px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 th {
@@ -98,7 +146,11 @@ th {
 }
 
 img.kn-image {
+    padding-top: 20px;
+    padding-bottom: 20px;
     max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 div.kn-name {
